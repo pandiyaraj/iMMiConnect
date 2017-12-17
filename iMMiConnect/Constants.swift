@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+struct Constants {
 
 enum UIUserInterfaceIdiom : Int
 {
@@ -38,6 +38,16 @@ struct DeviceType
     }
 }
 
+struct defaults {
+    static let isLoggedIn = "isLoggedIn"
+}
+
+struct ViewControllerNames {
+    static let PatientListVc = "PatientListVc"
+    static let RegisterPatientVc = "RegisterVc"
+    static let DashboardVc = "DashboardVc"
+    static let LoginNavVC = "LoginVc"
+}
 
 struct CommonValues {
     static let jsonApplication: String = "application/json"
@@ -46,13 +56,20 @@ struct CommonValues {
     static let networkMessage = "No network available. Please enable Wifi/Mobiledata to use the app"
     
     static let accessDeniedMsg = "Access Denied. Key Invalid."
-    
-    static let authRequestReceivedMsg = "Authentication request received. Try request data in next moment."
-    
     static let dataUnavalibaleMsg = "Data unavailable."
 
 }
+    
+    struct NibNames {
+        static let Popuptableviewcell = "PopUpTableViewCell"
+    }
+    
+    struct CellIdentifier {
+        static let Popuptableviewcell = "popupcell"
+    
+    }
 
+}
 struct AppFont {
     
     // if regularOrBold  == false Bold font
@@ -60,9 +77,9 @@ struct AppFont {
         let pointsPerInch : CGFloat = 72.0
         let scale : CGFloat = 1.0
         var pixelPerInch : CGFloat = 0.0
-        if DeviceType.IS_IPAD {
+        if Constants.DeviceType.IS_IPAD {
             pixelPerInch = 132 * scale
-        }else if DeviceType.IS_IPHONE{
+        }else if Constants.DeviceType.IS_IPHONE{
             pixelPerInch = 163 * scale
         }
         let fontSize = pixels * pointsPerInch / pixelPerInch

@@ -12,7 +12,9 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var rootController: UIViewController?
+    var storyboard: UIStoryboard!
+    static let shared = UIApplication.shared.delegate as! AppDelegate
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -41,6 +43,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    // MARK: - Load Initial Setup
+    
+    // MARK: - login -
+    func CheckForLogin() {
+        
+        
+        // Not authenticated -- signed in.
+        if UserDefaults.standard.bool(forKey: Constants.defaults.isLoggedIn)   {
+            loadUserLoggedInUI()
+        }else {
+            loadUserLoggedOutUI()
+        }
+    }
+    
+    func loadUserLoggedInUI() {
+        setUpInitialController(identifier: Constants.ViewControllerNames.DashboardVc)
+        
+    }
+    
+    func loadUserLoggedOutUI() {
+        
+        UserDefaults.standard.set(false, forKey: Constants.defaults.isLoggedIn)
+        //        if #available(iOS 10.0, *){
+        //            UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        //        }else{
+        //            UIApplication.shared.cancelAllLocalNotifications()
+        //        }
+        
+        self.setUpInitialController(identifier: Constants.ViewControllerNames.LoginNavVC)
+    }
+    
+    func setUpInitialController(identifier : String){
+        self.rootController?.removeFromParentViewController()
+        self.rootController = nil
+        let navVC = self.storyboard.instantiateViewController(withIdentifier: identifier) as! UINavigationController
+        self.window?.rootViewController = navVC
+        self.window?.makeKeyAndVisible()
+    }
 }
 

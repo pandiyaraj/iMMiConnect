@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A7EA9541FE65BB10032BFBB /* PatientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7EA9531FE65BB10032BFBB /* PatientListViewController.swift */; };
+		6A7EA95C1FE6BCAF0032BFBB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EA9551FE6BCAD0032BFBB /* Roboto-Regular.ttf */; };
+		6A7EA95D1FE6BCAF0032BFBB /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EA9561FE6BCAD0032BFBB /* Roboto-LightItalic.ttf */; };
+		6A7EA95E1FE6BCAF0032BFBB /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EA9571FE6BCAD0032BFBB /* Roboto-BoldItalic.ttf */; };
+		6A7EA95F1FE6BCAF0032BFBB /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EA9581FE6BCAE0032BFBB /* Roboto-Medium.ttf */; };
+		6A7EA9601FE6BCAF0032BFBB /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EA9591FE6BCAE0032BFBB /* Roboto-MediumItalic.ttf */; };
+		6A7EA9611FE6BCAF0032BFBB /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EA95A1FE6BCAE0032BFBB /* Roboto-Light.ttf */; };
+		6A7EA9621FE6BCAF0032BFBB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EA95B1FE6BCAF0032BFBB /* Roboto-Bold.ttf */; };
+		6A7EA9671FE6C5F60032BFBB /* PopUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7EA9651FE6C5F60032BFBB /* PopUpTableViewCell.swift */; };
+		6A7EA9681FE6C5F60032BFBB /* PopUpTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A7EA9661FE6C5F60032BFBB /* PopUpTableViewCell.xib */; };
 		A30867D71FE254A600826D14 /* NetworkActivityObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30867D51FE254A600826D14 /* NetworkActivityObserver.swift */; };
 		A30867D81FE254A600826D14 /* NetworkUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30867D61FE254A600826D14 /* NetworkUtilities.swift */; };
 		A30867DB1FE2553B00826D14 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30867DA1FE2553B00826D14 /* Reachability.swift */; };
@@ -37,6 +47,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A7EA9531FE65BB10032BFBB /* PatientListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListViewController.swift; sourceTree = "<group>"; };
+		6A7EA9551FE6BCAD0032BFBB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		6A7EA9561FE6BCAD0032BFBB /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		6A7EA9571FE6BCAD0032BFBB /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6A7EA9581FE6BCAE0032BFBB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		6A7EA9591FE6BCAE0032BFBB /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6A7EA95A1FE6BCAE0032BFBB /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		6A7EA95B1FE6BCAF0032BFBB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		6A7EA9651FE6C5F60032BFBB /* PopUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpTableViewCell.swift; sourceTree = "<group>"; };
+		6A7EA9661FE6C5F60032BFBB /* PopUpTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpTableViewCell.xib; sourceTree = "<group>"; };
 		A30867D51FE254A600826D14 /* NetworkActivityObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkActivityObserver.swift; sourceTree = "<group>"; };
 		A30867D61FE254A600826D14 /* NetworkUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtilities.swift; sourceTree = "<group>"; };
 		A30867DA1FE2553B00826D14 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
@@ -79,6 +99,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A7EA9631FE6BCC60032BFBB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6A7EA95B1FE6BCAF0032BFBB /* Roboto-Bold.ttf */,
+				6A7EA9571FE6BCAD0032BFBB /* Roboto-BoldItalic.ttf */,
+				6A7EA95A1FE6BCAE0032BFBB /* Roboto-Light.ttf */,
+				6A7EA9561FE6BCAD0032BFBB /* Roboto-LightItalic.ttf */,
+				6A7EA9581FE6BCAE0032BFBB /* Roboto-Medium.ttf */,
+				6A7EA9591FE6BCAE0032BFBB /* Roboto-MediumItalic.ttf */,
+				6A7EA9551FE6BCAD0032BFBB /* Roboto-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		6A7EA9641FE6C5C50032BFBB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6A7EA9651FE6C5F60032BFBB /* PopUpTableViewCell.swift */,
+				6A7EA9661FE6C5F60032BFBB /* PopUpTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		A30867D91FE254AA00826D14 /* NetworkHelper */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,8 +176,11 @@
 				A3FB94D31FDC1A230090BA6F /* AppDelegate.swift */,
 				A3FB94D51FDC1A230090BA6F /* ViewController.swift */,
 				A3966C9B1FE18125003F93EF /* DashboardViewController.swift */,
+				6A7EA9531FE65BB10032BFBB /* PatientListViewController.swift */,
 				A3966C971FE171C3003F93EF /* IMTextField.swift */,
 				A30867DE1FE255D500826D14 /* RegisterViewController.swift */,
+				6A7EA9641FE6C5C50032BFBB /* Cells */,
+				6A7EA9631FE6BCC60032BFBB /* Fonts */,
 				A30867D91FE254AA00826D14 /* NetworkHelper */,
 				A3FB94D71FDC1A230090BA6F /* Main.storyboard */,
 				A3966C991FE1742F003F93EF /* Spalsh.jpg */,
@@ -205,9 +251,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A7EA95F1FE6BCAF0032BFBB /* Roboto-Medium.ttf in Resources */,
 				A3966C9A1FE1742F003F93EF /* Spalsh.jpg in Resources */,
+				6A7EA9611FE6BCAF0032BFBB /* Roboto-Light.ttf in Resources */,
 				A3FB94DE1FDC1A230090BA6F /* LaunchScreen.storyboard in Resources */,
+				6A7EA9621FE6BCAF0032BFBB /* Roboto-Bold.ttf in Resources */,
+				6A7EA95D1FE6BCAF0032BFBB /* Roboto-LightItalic.ttf in Resources */,
+				6A7EA95C1FE6BCAF0032BFBB /* Roboto-Regular.ttf in Resources */,
 				A3FB94DB1FDC1A230090BA6F /* Assets.xcassets in Resources */,
+				6A7EA95E1FE6BCAF0032BFBB /* Roboto-BoldItalic.ttf in Resources */,
+				6A7EA9601FE6BCAF0032BFBB /* Roboto-MediumItalic.ttf in Resources */,
+				6A7EA9681FE6C5F60032BFBB /* PopUpTableViewCell.xib in Resources */,
 				A3FB94D91FDC1A230090BA6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +275,7 @@
 			files = (
 				A3FB94D61FDC1A230090BA6F /* ViewController.swift in Sources */,
 				A30867DD1FE2557300826D14 /* Constants.swift in Sources */,
+				6A7EA9541FE65BB10032BFBB /* PatientListViewController.swift in Sources */,
 				A3966C9C1FE18125003F93EF /* DashboardViewController.swift in Sources */,
 				A3966C8A1FE17192003F93EF /* DateExtensions.swift in Sources */,
 				A3966C881FE17192003F93EF /* ArrayExtensions.swift in Sources */,
@@ -231,6 +286,7 @@
 				A3966C8E1FE17192003F93EF /* UIAlertControllerExtensions.swift in Sources */,
 				A3966C941FE17192003F93EF /* UIViewControllerExtensions.swift in Sources */,
 				A3966C891FE17192003F93EF /* ConvenienceExtensions.swift in Sources */,
+				6A7EA9671FE6C5F60032BFBB /* PopUpTableViewCell.swift in Sources */,
 				A3966C8C1FE17192003F93EF /* General.swift in Sources */,
 				A3966C951FE17192003F93EF /* UIViewExtensions.swift in Sources */,
 				A30867DF1FE255D500826D14 /* RegisterViewController.swift in Sources */,

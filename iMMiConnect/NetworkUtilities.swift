@@ -73,7 +73,7 @@ public class NetworkUtilities {
         
         var jsonData = Data()
         if requestBody != nil {
-            if contentType == CommonValues.jsonApplication{
+            if contentType == Constants.CommonValues.jsonApplication{
                 do {
                     jsonData = try JSONSerialization.data(withJSONObject: requestBody!)
                     // here "jsonData" is the dictionary encoded in JSON data
@@ -90,7 +90,7 @@ public class NetworkUtilities {
                     print(error)
                 }
             }
-            else if contentType == CommonValues.urlencoded {
+            else if contentType == Constants.CommonValues.urlencoded {
                 if requestBody != nil {
                     jsonData = (requestBody as! String).data(using: .utf8)!
                 }

@@ -33,7 +33,8 @@ class ViewController: UIViewController {
     
     @IBAction func loginBtnAction(_ sender: Any) {
         if validate(){
-            let dashboardVc = self.storyboard?.instantiateViewController(withIdentifier: "DashboardVc") as! DashboardViewController
+            UserDefaults.standard.set(true, forKey: Constants.defaults.isLoggedIn)
+            let dashboardVc = self.storyboard?.instantiateViewController(withIdentifier: Constants.ViewControllerNames.DashboardVc) as! DashboardViewController
             self.navigationController?.pushViewController(dashboardVc, animated: true)
         }
     }
