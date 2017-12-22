@@ -22,6 +22,14 @@
 		A30867DB1FE2553B00826D14 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30867DA1FE2553B00826D14 /* Reachability.swift */; };
 		A30867DD1FE2557300826D14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30867DC1FE2557300826D14 /* Constants.swift */; };
 		A30867DF1FE255D500826D14 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30867DE1FE255D500826D14 /* RegisterViewController.swift */; };
+		A34921521FEA244200AD8E31 /* RemarksViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34921501FEA244200AD8E31 /* RemarksViewCell.swift */; };
+		A34921531FEA244200AD8E31 /* RemarksViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A34921511FEA244200AD8E31 /* RemarksViewCell.xib */; };
+		A37141301FE808A30015884C /* SymptomsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371412F1FE808A30015884C /* SymptomsListController.swift */; };
+		A38EC16E1FE9518D000BA634 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EC16A1FE9518D000BA634 /* CollapsibleTableViewHeader.swift */; };
+		A38EC1701FE9518D000BA634 /* CollapsibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EC16C1FE9518D000BA634 /* CollapsibleTableViewCell.swift */; };
+		A38EC1711FE9518D000BA634 /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EC16D1FE9518D000BA634 /* ExampleData.swift */; };
+		A38EC1751FE95336000BA634 /* ExpandbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EC1731FE95336000BA634 /* ExpandbleTableViewCell.swift */; };
+		A38EC1761FE95336000BA634 /* ExpandbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38EC1741FE95336000BA634 /* ExpandbleTableViewCell.xib */; };
 		A3966C881FE17192003F93EF /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3966C7A1FE17192003F93EF /* ArrayExtensions.swift */; };
 		A3966C891FE17192003F93EF /* ConvenienceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3966C7B1FE17192003F93EF /* ConvenienceExtensions.swift */; };
 		A3966C8A1FE17192003F93EF /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3966C7C1FE17192003F93EF /* DateExtensions.swift */; };
@@ -39,6 +47,8 @@
 		A3966C981FE171C3003F93EF /* IMTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3966C971FE171C3003F93EF /* IMTextField.swift */; };
 		A3966C9A1FE1742F003F93EF /* Spalsh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3966C991FE1742F003F93EF /* Spalsh.jpg */; };
 		A3966C9C1FE18125003F93EF /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3966C9B1FE18125003F93EF /* DashboardViewController.swift */; };
+		A3EFD3201FEAA07A0095A24C /* IMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFD31F1FEAA07A0095A24C /* IMLabel.swift */; };
+		A3EFD3221FEAB8AC0095A24C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EFD3211FEAB8AB0095A24C /* CameraViewController.swift */; };
 		A3FB94D41FDC1A230090BA6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FB94D31FDC1A230090BA6F /* AppDelegate.swift */; };
 		A3FB94D61FDC1A230090BA6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FB94D51FDC1A230090BA6F /* ViewController.swift */; };
 		A3FB94D91FDC1A230090BA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FB94D71FDC1A230090BA6F /* Main.storyboard */; };
@@ -62,6 +72,14 @@
 		A30867DA1FE2553B00826D14 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A30867DC1FE2557300826D14 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A30867DE1FE255D500826D14 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A34921501FEA244200AD8E31 /* RemarksViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarksViewCell.swift; sourceTree = "<group>"; };
+		A34921511FEA244200AD8E31 /* RemarksViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RemarksViewCell.xib; sourceTree = "<group>"; };
+		A371412F1FE808A30015884C /* SymptomsListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsListController.swift; sourceTree = "<group>"; };
+		A38EC16A1FE9518D000BA634 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		A38EC16C1FE9518D000BA634 /* CollapsibleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewCell.swift; sourceTree = "<group>"; };
+		A38EC16D1FE9518D000BA634 /* ExampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		A38EC1731FE95336000BA634 /* ExpandbleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandbleTableViewCell.swift; sourceTree = "<group>"; };
+		A38EC1741FE95336000BA634 /* ExpandbleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandbleTableViewCell.xib; sourceTree = "<group>"; };
 		A3966C7A1FE17192003F93EF /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		A3966C7B1FE17192003F93EF /* ConvenienceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvenienceExtensions.swift; sourceTree = "<group>"; };
 		A3966C7C1FE17192003F93EF /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
@@ -79,6 +97,8 @@
 		A3966C971FE171C3003F93EF /* IMTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMTextField.swift; sourceTree = "<group>"; };
 		A3966C991FE1742F003F93EF /* Spalsh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spalsh.jpg; sourceTree = "<group>"; };
 		A3966C9B1FE18125003F93EF /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		A3EFD31F1FEAA07A0095A24C /* IMLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMLabel.swift; sourceTree = "<group>"; };
+		A3EFD3211FEAB8AB0095A24C /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		A3FB94D01FDC1A230090BA6F /* iMMiConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMMiConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3FB94D31FDC1A230090BA6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3FB94D51FDC1A230090BA6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +153,20 @@
 			name = NetworkHelper;
 			sourceTree = "<group>";
 		};
+		A38EC1721FE95191000BA634 /* Expandable */ = {
+			isa = PBXGroup;
+			children = (
+				A38EC16A1FE9518D000BA634 /* CollapsibleTableViewHeader.swift */,
+				A38EC16C1FE9518D000BA634 /* CollapsibleTableViewCell.swift */,
+				A38EC16D1FE9518D000BA634 /* ExampleData.swift */,
+				A38EC1731FE95336000BA634 /* ExpandbleTableViewCell.swift */,
+				A38EC1741FE95336000BA634 /* ExpandbleTableViewCell.xib */,
+				A34921501FEA244200AD8E31 /* RemarksViewCell.swift */,
+				A34921511FEA244200AD8E31 /* RemarksViewCell.xib */,
+			);
+			name = Expandable;
+			sourceTree = "<group>";
+		};
 		A3966C961FE17197003F93EF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +213,10 @@
 				6A7EA9531FE65BB10032BFBB /* PatientListViewController.swift */,
 				A3966C971FE171C3003F93EF /* IMTextField.swift */,
 				A30867DE1FE255D500826D14 /* RegisterViewController.swift */,
+				A371412F1FE808A30015884C /* SymptomsListController.swift */,
+				A3EFD31F1FEAA07A0095A24C /* IMLabel.swift */,
+				A3EFD3211FEAB8AB0095A24C /* CameraViewController.swift */,
+				A38EC1721FE95191000BA634 /* Expandable */,
 				6A7EA9641FE6C5C50032BFBB /* Cells */,
 				6A7EA9631FE6BCC60032BFBB /* Fonts */,
 				A30867D91FE254AA00826D14 /* NetworkHelper */,
@@ -224,6 +262,7 @@
 				TargetAttributes = {
 					A3FB94CF1FDC1A230090BA6F = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9W5W4S5PA3;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -253,6 +292,7 @@
 			files = (
 				6A7EA95F1FE6BCAF0032BFBB /* Roboto-Medium.ttf in Resources */,
 				A3966C9A1FE1742F003F93EF /* Spalsh.jpg in Resources */,
+				A38EC1761FE95336000BA634 /* ExpandbleTableViewCell.xib in Resources */,
 				6A7EA9611FE6BCAF0032BFBB /* Roboto-Light.ttf in Resources */,
 				A3FB94DE1FDC1A230090BA6F /* LaunchScreen.storyboard in Resources */,
 				6A7EA9621FE6BCAF0032BFBB /* Roboto-Bold.ttf in Resources */,
@@ -260,6 +300,7 @@
 				6A7EA95C1FE6BCAF0032BFBB /* Roboto-Regular.ttf in Resources */,
 				A3FB94DB1FDC1A230090BA6F /* Assets.xcassets in Resources */,
 				6A7EA95E1FE6BCAF0032BFBB /* Roboto-BoldItalic.ttf in Resources */,
+				A34921531FEA244200AD8E31 /* RemarksViewCell.xib in Resources */,
 				6A7EA9601FE6BCAF0032BFBB /* Roboto-MediumItalic.ttf in Resources */,
 				6A7EA9681FE6C5F60032BFBB /* PopUpTableViewCell.xib in Resources */,
 				A3FB94D91FDC1A230090BA6F /* Main.storyboard in Resources */,
@@ -273,7 +314,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34921521FEA244200AD8E31 /* RemarksViewCell.swift in Sources */,
 				A3FB94D61FDC1A230090BA6F /* ViewController.swift in Sources */,
+				A38EC16E1FE9518D000BA634 /* CollapsibleTableViewHeader.swift in Sources */,
 				A30867DD1FE2557300826D14 /* Constants.swift in Sources */,
 				6A7EA9541FE65BB10032BFBB /* PatientListViewController.swift in Sources */,
 				A3966C9C1FE18125003F93EF /* DashboardViewController.swift in Sources */,
@@ -282,21 +325,27 @@
 				A3966C921FE17192003F93EF /* UITableViewExtensions.swift in Sources */,
 				A3FB94D41FDC1A230090BA6F /* AppDelegate.swift in Sources */,
 				A3966C931FE17192003F93EF /* UITextFieldExtensions.swift in Sources */,
+				A3EFD3221FEAB8AC0095A24C /* CameraViewController.swift in Sources */,
 				A30867D81FE254A600826D14 /* NetworkUtilities.swift in Sources */,
 				A3966C8E1FE17192003F93EF /* UIAlertControllerExtensions.swift in Sources */,
+				A37141301FE808A30015884C /* SymptomsListController.swift in Sources */,
 				A3966C941FE17192003F93EF /* UIViewControllerExtensions.swift in Sources */,
 				A3966C891FE17192003F93EF /* ConvenienceExtensions.swift in Sources */,
 				6A7EA9671FE6C5F60032BFBB /* PopUpTableViewCell.swift in Sources */,
+				A38EC1711FE9518D000BA634 /* ExampleData.swift in Sources */,
 				A3966C8C1FE17192003F93EF /* General.swift in Sources */,
 				A3966C951FE17192003F93EF /* UIViewExtensions.swift in Sources */,
+				A38EC1751FE95336000BA634 /* ExpandbleTableViewCell.swift in Sources */,
 				A30867DF1FE255D500826D14 /* RegisterViewController.swift in Sources */,
 				A3966C8D1FE17192003F93EF /* String.swift in Sources */,
 				A30867DB1FE2553B00826D14 /* Reachability.swift in Sources */,
+				A38EC1701FE9518D000BA634 /* CollapsibleTableViewCell.swift in Sources */,
 				A3966C911FE17192003F93EF /* UILabelExtensions.swift in Sources */,
 				A3966C8B1FE17192003F93EF /* DictionaryExtensions.swift in Sources */,
 				A3966C901FE17192003F93EF /* UIImageViewExtensions.swift in Sources */,
 				A30867D71FE254A600826D14 /* NetworkActivityObserver.swift in Sources */,
 				A3966C981FE171C3003F93EF /* IMTextField.swift in Sources */,
+				A3EFD3201FEAA07A0095A24C /* IMLabel.swift in Sources */,
 				A3966C8F1FE17192003F93EF /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,12 +469,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9W5W4S5PA3;
 				INFOPLIST_FILE = iMMiConnect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.immi.iMMiConnect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideas2it.arkit.test123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7055bd58-6de6-4a48-894f-93a6e67d8beb";
+				PROVISIONING_PROFILE_SPECIFIER = "ARKit Generic Dev Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -434,12 +484,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9W5W4S5PA3;
 				INFOPLIST_FILE = iMMiConnect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.immi.iMMiConnect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ideas2it.arkit.test123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "7055bd58-6de6-4a48-894f-93a6e67d8beb";
+				PROVISIONING_PROFILE_SPECIFIER = "ARKit Generic Dev Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -47,6 +47,7 @@ struct ViewControllerNames {
     static let RegisterPatientVc = "RegisterVc"
     static let DashboardVc = "DashboardVc"
     static let LoginNavVC = "LoginVc"
+    static let SymptomsVc = "SymptomsVc"
 }
 
 struct CommonValues {
@@ -62,10 +63,15 @@ struct CommonValues {
     
     struct NibNames {
         static let Popuptableviewcell = "PopUpTableViewCell"
+        static let ExpandbleTableViewCell = "ExpandbleTableViewCell"
+        static let RemarksViewCell = "RemarksViewCell"
+
     }
     
     struct CellIdentifier {
         static let Popuptableviewcell = "popupcell"
+        static let Expandablecell = "cell"
+        static let Remarkcell = "RemarksCell"
     
     }
 
@@ -109,6 +115,25 @@ struct AppFont {
         return UIFont.init(name: FontName.light, size: pixelToPoint(pixels))!
     }
 }
+
+// HTTP METHODS
+struct HttpMethod{
+    static let GET : String = "GET"
+    static let POST : String = "POST"
+    static let DELETE : String = "DELETE"
+    static let PUT : String = "PUT"
+    static let PATCH:String = "PATCH"
+    
+}
+
+/// Common values
+struct CommonValues {
+    static let jsonApplication: String = "application/json"
+    static let urlencoded: String = "application/x-www-form-urlencoded"
+    static let regionCode:String = ((Locale.current as NSLocale).object(forKey: .countryCode) as? String)!
+    static var phoneCode:String = ""
+}
+
 
 struct DataPointTrailigPoint {
     

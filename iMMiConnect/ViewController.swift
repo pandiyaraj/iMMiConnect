@@ -60,6 +60,22 @@ class ViewController: UIViewController {
         }
     }
     
+    
+    //API Call
+    func loginAction() -> Void {
+        let dict = ["email":"","password":""]
+        
+        NetworkUtilities.sendAsynchronousRequestToServer(actionName: "login", httpMethod: HttpMethod.POST, requestBody: dict as AnyObject, contentType: CommonValues.jsonApplication) { (successObject) in
+            if successObject is NSDictionary{
+                // Need to push
+                // Save User id in userdefaults
+            }else{
+                self.showAlert(title: "Error", contentText: successObject as! String, actions: nil)
+            }
+        }
+    }
+    
+    
     //MARK:- TextView Delegate
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {

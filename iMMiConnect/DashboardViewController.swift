@@ -37,6 +37,11 @@ class DashboardViewController: UIViewController, UITableViewDataSource,UITableVi
     }
     
     func loadPatientDetails() -> Void {
+        
+//        NetworkUtilities.sendAsynchronousRequestToServer(actionName: "getPatients", httpMethod: HttpMethod.GET, requestBody: nil, contentType: CommonValues.jsonApplication) { (successObject) in
+//
+//        }
+        
         if patientArrayList.count == 0{
             userNameLabel.isHidden = false
             tableView.isHidden = true

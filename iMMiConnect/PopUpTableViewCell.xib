@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -25,11 +24,11 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OEQ-Ug-BRG">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OEQ-Ug-BRG">
                         <rect key="frame" x="15" y="7" width="30" height="30"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="30" id="0Ey-fy-0AJ"/>
-                            <constraint firstAttribute="height" constant="30" id="Hbs-uE-KeI"/>
+                            <constraint firstAttribute="width" constant="30" id="2nk-Mb-cgh"/>
+                            <constraint firstAttribute="height" constant="30" id="vRO-74-8d7"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plain" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yvo-ag-V0U">
@@ -40,16 +39,16 @@
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Yvo-ag-V0U" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="6Hy-Y3-z6y"/>
-                    <constraint firstItem="Yvo-ag-V0U" firstAttribute="leading" secondItem="OEQ-Ug-BRG" secondAttribute="trailing" constant="15" id="aOh-cf-uA5"/>
-                    <constraint firstItem="OEQ-Ug-BRG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="jql-uY-Uft"/>
-                    <constraint firstAttribute="trailing" secondItem="Yvo-ag-V0U" secondAttribute="trailing" constant="15" id="noR-yy-h8N"/>
-                    <constraint firstItem="Yvo-ag-V0U" firstAttribute="centerY" secondItem="OEQ-Ug-BRG" secondAttribute="centerY" id="tGi-zg-u3d"/>
+                    <constraint firstItem="Yvo-ag-V0U" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="262-uu-1NP"/>
+                    <constraint firstAttribute="trailing" secondItem="Yvo-ag-V0U" secondAttribute="trailing" constant="15" id="Qbv-7X-eQB"/>
+                    <constraint firstItem="OEQ-Ug-BRG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="pxj-mh-spP"/>
+                    <constraint firstItem="OEQ-Ug-BRG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="uf4-Ei-sC1"/>
+                    <constraint firstItem="Yvo-ag-V0U" firstAttribute="leading" secondItem="OEQ-Ug-BRG" secondAttribute="trailing" constant="15" id="xCA-OZ-j7V"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="selectedBackgroundView" destination="OEQ-Ug-BRG" id="ymU-lH-H6L"/>
+                <outlet property="cellImageView" destination="OEQ-Ug-BRG" id="CmF-c4-ONK"/>
                 <outlet property="titleLbl" destination="Yvo-ag-V0U" id="H3m-e6-CbX"/>
             </connections>
         </tableViewCell>
